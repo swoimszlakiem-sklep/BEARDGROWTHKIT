@@ -758,11 +758,6 @@ html:not(.is-main-interface) body[data-bs-padding-right]:not(.rounded-canvas) {
   overflow-y: visible !important;
   padding-right: 0 !important;
 }
-.cid-tjirhdXDP9 {
-  z-index: 1000;
-  width: 100%;
-  height: 0 !important;
-}
 .cid-tjirhdXDP9 .dropdown-item:before {
   font-family: Moririse2 !important;
   content: "\e966";
@@ -845,8 +840,8 @@ html:not(.is-main-interface) body[data-bs-padding-right]:not(.rounded-canvas) {
   transition: all 0.3s;
   padding: 0 !important;
   box-shadow: none !important;
-  background: transparent;
-  position: absolute ;
+  position: relative ;
+  background: #000000;
 }
 .cid-tjirhdXDP9 .navbar.opened {
   transition: all 0.3s;
@@ -1035,7 +1030,6 @@ html:not(.is-main-interface) body[data-bs-padding-right]:not(.rounded-canvas) {
 }
 .cid-tjirhdXDP9 .navbar-dropdown {
   padding: 0;
-  position: fixed;
 }
 .cid-tjirhdXDP9 a.nav-link {
   display: flex;
